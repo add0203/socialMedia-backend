@@ -1,0 +1,29 @@
+{
+  "name": "group-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.35.0",
+    "geolib": "^3.3.3",
+    "express-fileupload": "^1.4.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.5",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
